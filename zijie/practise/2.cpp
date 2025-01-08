@@ -9,16 +9,19 @@ int flag = 1;
 
 void function(int current,int next)
 {
-    std::unique_lock<std::mutex> lock(mtx);
+    while (true)
+    {
+        std::unique_lock<std::mutex> lock(mtx);
 
-    cv.wait(lock,[current]{return flag == current;});
+        cv.wait(lock, [current]
+                { return flag == current; });
 
-    std::cout << current <<std::endl;
+        std::cout << current << std::endl;
 
-    flag = next;
+        flag = next;
 
-    cv.notify_all();
-
+        cv.notify_all();
+    }
 }
 
 
