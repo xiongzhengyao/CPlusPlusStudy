@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+GetCHIAppCallbacks	Cpp/1.cpp	/^    chi_hal_callback_ops_t* GetCHIAppCallbacks() {$/;"	f	class:HAL3Module	typeref:typename:chi_hal_callback_ops_t *	file:
+GetCHIAppCallbacks	Cpp/1.cpp	/^static inline chi_hal_callback_ops_t* GetCHIAppCallbacks() {$/;"	f	typeref:typename:chi_hal_callback_ops_t *	file:
+GetInstance	Cpp/1.cpp	/^    static std::shared_ptr<HAL3Module> GetInstance() {$/;"	f	class:HAL3Module	typeref:typename:std::shared_ptr<HAL3Module>	file:
+HAL3Module	Cpp/1.cpp	/^    HAL3Module() {$/;"	f	class:HAL3Module	file:
+HAL3Module	Cpp/1.cpp	/^class HAL3Module {$/;"	c	file:
+OnConnect	Cpp/1.cpp	/^void OnConnect() {$/;"	f	typeref:typename:void
+OnDataReceived	Cpp/1.cpp	/^void OnDataReceived(const char* data) {$/;"	f	typeref:typename:void
+OnDisconnect	Cpp/1.cpp	/^void OnDisconnect() {$/;"	f	typeref:typename:void
+OnError	Cpp/1.cpp	/^void OnError(const char* error) {$/;"	f	typeref:typename:void
+Person	main/main.cpp	/^    Person() : age(0), name("") {$/;"	f	class:Person	file:
+Person	main/main.cpp	/^class Person {$/;"	c	file:
+SAMPLE_CHANNELS	headfiles/sample.c	/^    SAMPLE_CHANNELS = 1,$/;"	e	enum:__anon63dbe26c0103	file:
+SAMPLE_DURATION	headfiles/sample.c	/^    SAMPLE_DURATION = 1,$/;"	e	enum:__anon63dbe26c0103	file:
+SAMPLE_RATE	headfiles/sample.c	/^    SAMPLE_RATE = 44100,$/;"	e	enum:__anon63dbe26c0103	file:
+SAMPLE_SIZE	headfiles/sample.c	/^    SAMPLE_SIZE = 1,$/;"	e	enum:__anon63dbe26c0103	file:
+SQUARE	inlinefunc/test.cpp	/^#define  SQUARE(/;"	d	file:
+SumThread	Cpp/thread.cpp	/^void SumThread(int start, int end, long long& result) {$/;"	f	typeref:typename:void
+__anon068d3e3c0102	zijie/practise/2.cpp	/^                { return flag == current; });$/;"	f	function:function	file:
+__anon1474ee720102	zijie/2.cpp	/^    cv.wait(lock, [currentTurn] { return turn == currentTurn; });$/;"	f	function:printNumber	file:
+__anon148706f30102	zijie/3.cpp	/^        not_empty.wait(lock, [] { return !dataQueue.empty() || producerFinished; });$/;"	f	function:consumer	file:
+__anon63dbe26c0103	headfiles/sample.c	/^enum {$/;"	g	file:
+__anonea29e8790108	Cpp/1.cpp	/^typedef struct {$/;"	s	file:
+age	main/main.cpp	/^    int age;$/;"	m	class:Person	typeref:typename:int	file:
+callback_ops_	Cpp/1.cpp	/^    chi_hal_callback_ops_t callback_ops_;$/;"	m	class:HAL3Module	typeref:typename:chi_hal_callback_ops_t	file:
+changeinfo	main/main.cpp	/^    void changeinfo(int age, std::string name) { \/\/ Correct parameter name to match member var/;"	f	class:Person	typeref:typename:void	file:
+chi_hal_callback_ops_t	Cpp/1.cpp	/^} chi_hal_callback_ops_t;$/;"	t	typeref:struct:__anonea29e8790108	file:
+consumer	zijie/3.cpp	/^void consumer(int id) {$/;"	f	typeref:typename:void
+cv	zijie/2.cpp	/^std::condition_variable cv;        \/\/ 条件变量，用于线程间通信和等待\/通知机/;"	v	typeref:typename:std::condition_variable
+cv	zijie/practise/2.cpp	/^std::condition_variable cv;$/;"	v	typeref:typename:std::condition_variable
+dataQueue	zijie/3.cpp	/^queue<int> dataQueue;                \/\/ 数据队列$/;"	v	typeref:typename:queue<int>
+findUnique	zhuimi/1.cpp	/^int findUnique(vector<int>& nums) {$/;"	f	typeref:typename:int
+flag	zijie/practise/2.cpp	/^int flag = 1;$/;"	v	typeref:typename:int
+function	zijie/practise/2.cpp	/^void function(int current,int next)$/;"	f	typeref:typename:void
+getinfo	main/main.cpp	/^    void getinfo(int &age, std::string &name) {$/;"	f	class:Person	typeref:typename:void	file:
+instance_	Cpp/1.cpp	/^    static std::shared_ptr<HAL3Module> instance_;$/;"	m	class:HAL3Module	typeref:typename:std::shared_ptr<HAL3Module>	file:
+instance_	Cpp/1.cpp	/^std::shared_ptr<HAL3Module> HAL3Module::instance_ = nullptr;$/;"	m	class:HAL3Module	typeref:typename:std::shared_ptr<HAL3Module>
+lengthOfLongestSubstring	zijie/1.cpp	/^pair<int, string> lengthOfLongestSubstring(string s) {$/;"	f	typeref:typename:pair<int,string>
+main	Cpp/1.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	Cpp/thread.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	headfiles/sample.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	inlinefunc/inlinefunc.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	inlinefunc/test.cpp	/^int main(void)$/;"	f	typeref:typename:int
+main	main/main.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	zhuimi/1.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	zijie/1.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	zijie/2.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	zijie/3.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	zijie/4.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	zijie/5.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	zijie/demo1.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	zijie/practise/1.cpp	/^int main()$/;"	f	typeref:typename:int
+main	zijie/practise/2.cpp	/^int main()$/;"	f	typeref:typename:int
+max	inlinefunc/inlinefunc.cpp	/^inline int max(int a, int b) {$/;"	f	typeref:typename:int
+maxSumSubmatrix	zijie/4.cpp	/^int maxSumSubmatrix(vector<vector<int>>& matrix, int k) {$/;"	f	typeref:typename:int
+mtx	Cpp/thread.cpp	/^std::mutex mtx; \/\/ 定义一个互斥锁$/;"	v	typeref:typename:std::mutex
+mtx	zijie/2.cpp	/^std::mutex mtx;                    \/\/ 互斥锁，用于保护共享资源和同步线程$/;"	v	typeref:typename:std::mutex
+mtx	zijie/3.cpp	/^mutex mtx;                           \/\/ 互斥锁$/;"	v	typeref:typename:mutex
+mtx	zijie/practise/2.cpp	/^std::mutex mtx;$/;"	v	typeref:typename:std::mutex
+name	main/main.cpp	/^    std::string name;$/;"	m	class:Person	typeref:typename:std::string	file:
+not_empty	zijie/3.cpp	/^condition_variable not_empty;        \/\/ 条件变量，表示队列非空$/;"	v	typeref:typename:condition_variable
+not_full	zijie/3.cpp	/^condition_variable not_full;         \/\/ 条件变量，表示队列未满$/;"	v	typeref:typename:condition_variable
+on_connect	Cpp/1.cpp	/^    void (*on_connect)();$/;"	m	struct:__anonea29e8790108	typeref:typename:void (*)()	file:
+on_data_received	Cpp/1.cpp	/^    void (*on_data_received)(const char* data);$/;"	m	struct:__anonea29e8790108	typeref:typename:void (*)(const char * data)	file:
+on_disconnect	Cpp/1.cpp	/^    void (*on_disconnect)();$/;"	m	struct:__anonea29e8790108	typeref:typename:void (*)()	file:
+on_error	Cpp/1.cpp	/^    void (*on_error)(const char* error);$/;"	m	struct:__anonea29e8790108	typeref:typename:void (*)(const char * error)	file:
+print	main/main.cpp	/^    void print() {$/;"	f	class:Person	typeref:typename:void	file:
+printMatrix	zijie/5.cpp	/^void printMatrix(const vector<vector<int>>& matrix) {$/;"	f	typeref:typename:void
+printNumber	zijie/2.cpp	/^void printNumber(int num, int currentTurn, int nextTurn) {$/;"	f	typeref:typename:void
+producer	zijie/3.cpp	/^void producer() {$/;"	f	typeref:typename:void
+producerFinished	zijie/3.cpp	/^bool producerFinished = false;       \/\/ 生产者是否完成标志$/;"	v	typeref:typename:bool
+rotateMatrix	zijie/5.cpp	/^void rotateMatrix(vector<vector<int>>& matrix) {$/;"	f	typeref:typename:void
+sharedSpace	zijie/3.cpp	/^vector<int> sharedSpace;             \/\/ 共享空间$/;"	v	typeref:typename:vector<int>
+square	inlinefunc/test.cpp	/^inline double square(double x) { return x*x; }$/;"	f	typeref:typename:double
+turn	zijie/2.cpp	/^int turn = 1;                     \/\/ 控制打印顺序的变量，初始为1表示从1开始打/;"	v	typeref:typename:int
+worker	zijie/demo1.cpp	/^void worker(int id) {$/;"	f	typeref:typename:void
+~HAL3Module	Cpp/1.cpp	/^    ~HAL3Module() {}$/;"	f	class:HAL3Module	file:
