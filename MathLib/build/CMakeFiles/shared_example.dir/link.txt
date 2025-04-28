@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/shared_example.dir/main.cpp.o -o shared_example  -Wl,-rpath,/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build: libmath_lib.so 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/static_example.dir/main.cpp.o -o static_example  libmath_lib.a 

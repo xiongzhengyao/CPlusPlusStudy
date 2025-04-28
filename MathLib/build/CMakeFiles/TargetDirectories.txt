@@ -1,0 +1,10 @@
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/math_lib_static.dir
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/math_lib_shared.dir
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/static_example.dir
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/shared_example.dir
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/list_install_components.dir
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/install.dir
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/install/local.dir
+/home/ubuntu/Projects/CPlusPlusStudy/MathLib/build/CMakeFiles/install/strip.dir
